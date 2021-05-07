@@ -5,7 +5,7 @@ import DataTable from './components/dataTable';
 function App() {
   const [data, setData] = useState([]); // All our data
   const [query, setQuery] = useState(''); //some value on input
-  const [searchColumn, setSearchColumn] = useState(['id', 'name']); //our choice of checkbox
+  const [searchColumn, setSearchColumn] = useState([]); //our choice of checkbox
 
   //Getting data
   useEffect(() => {
